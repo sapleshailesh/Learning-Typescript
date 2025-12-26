@@ -27,7 +27,7 @@ function combine(arg1: StringOrNumber, arg2: StringOrNumber): StringOrNumber | u
     }
 }
 
-const combinedResult1= combine(30,40);
+const combinedResult1= combine('30',40);
 console.log(`The sum of 30 and 40 is: ${combinedResult1}
     and type of combinedResult1 is ${typeof combinedResult1}`);
 
