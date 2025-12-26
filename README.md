@@ -8,7 +8,7 @@ start
 
 
 npm install lite-server to install the lite server
-tsc -init
+tsc -init   -->to generate tsconfig.json
 
 
 to run as web application, 
@@ -16,6 +16,4 @@ use
 npm run compile
 npm run start
 
-to run ts file as standalone file
-
-npx ts-node <filename.ts>
+to run ts file as standalone file ==> npx ts-node <filename.ts>

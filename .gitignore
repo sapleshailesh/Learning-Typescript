@@ -1,14 +1,9 @@
-*.ts.map
-*.js.map
-*.d.ts
-*.ts.map
-*.map
+# Ignore TypeScript build output
 *.js
 .vscode/
 package-lock.json
-node_modules/
-dist/*
-dist/**/*
+**/node_modules/**
+**/dist/**
 .env
 .DS_Store
 .idea/
@@ -18,3 +13,5 @@ yarn-error.log*
 lerna-debug.log*
 coverage/
 .cache/
+*.map
+*.ds.ts
